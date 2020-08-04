@@ -200,7 +200,7 @@ void Hooks::install() noexcept
 #endif
 
     eventListener = std::make_unique<EventListener>();
-    config = std::make_unique<Config>("GOESP");
+    config = std::make_unique<Config>("BlyatKiller");
 
     ImGui::CreateContext();
 #ifdef _WIN32

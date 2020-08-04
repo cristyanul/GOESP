@@ -30,7 +30,7 @@ void GUI::render() noexcept
     if (!open)
         return;
 
-    ImGui::Begin("GOESP", nullptr, ImGuiWindowFlags_NoResize | ImGuiWindowFlags_NoScrollbar | ImGuiWindowFlags_NoScrollWithMouse | ImGuiWindowFlags_NoCollapse);
+    ImGui::Begin("BlyatKiller", nullptr, ImGuiWindowFlags_NoResize | ImGuiWindowFlags_NoScrollbar | ImGuiWindowFlags_NoScrollWithMouse | ImGuiWindowFlags_NoCollapse);
 
     if (!ImGui::BeginTabBar("##tabbar", ImGuiTabBarFlags_Reorderable | ImGuiTabBarFlags_NoTooltip)) {
         ImGui::End();
@@ -89,7 +89,7 @@ void GUI::render() noexcept
         ImGui::EndTabItem();
     }
     if (ImGui::BeginTabItem("Configs")) {
-        ImGui::TextUnformatted("Config is saved as \"config.txt\" inside GOESP directory in Documents");
+        ImGui::TextUnformatted("Config is saved as \"config.txt\" inside BlyatKiller directory in Documents");
         if (ImGui::Button("Load"))
             config->load();
         if (ImGui::Button("Save"))

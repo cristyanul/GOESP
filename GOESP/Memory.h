@@ -109,7 +109,7 @@ private:
                 return reinterpret_cast<std::uintptr_t>(start);
         }
 #ifdef _WIN32
-        MessageBoxA(NULL, ("Failed to find pattern #" + std::to_string(id) + '!').c_str(), "GOESP", MB_OK | MB_ICONWARNING);
+        MessageBoxA(NULL, ("Failed to find pattern #" + std::to_string(id) + '!').c_str(), "BlyatKiller", MB_OK | MB_ICONWARNING);
 #endif
         return 0;
     }
