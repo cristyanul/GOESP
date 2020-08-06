@@ -29,7 +29,7 @@
     <UseDebugLibraries>false</UseDebugLibraries>
     <PlatformToolset>v142</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
-    <CharacterSet>Unicode</CharacterSet>
+    <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -130,6 +130,7 @@
     <ClCompile Include="Hacks\Misc.cpp" />
     <ClCompile Include="Helpers.cpp" />
     <ClCompile Include="Hooks.cpp" />
+    <ClCompile Include="Hopper.cpp" />
     <ClCompile Include="ImGuiCustom.cpp" />
     <ClCompile Include="imgui\imgui.cpp" />
     <ClCompile Include="imgui\imgui_demo.cpp" />
@@ -151,6 +152,7 @@
     <ClInclude Include="Hacks\Misc.h" />
     <ClInclude Include="Helpers.h" />
     <ClInclude Include="Hooks.h" />
+    <ClInclude Include="Hopper.h" />
     <ClInclude Include="ImGuiCustom.h" />
     <ClInclude Include="imgui\imconfig.h" />
     <ClInclude Include="imgui\imgui.h" />

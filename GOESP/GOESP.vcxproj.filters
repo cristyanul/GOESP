@@ -77,6 +77,9 @@
     <ClCompile Include="SDK\Entity.cpp">
       <Filter>SDK</Filter>
     </ClCompile>
+    <ClCompile Include="Hopper.cpp">
+      <Filter>Hacks</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Interfaces.h">
@@ -222,6 +225,9 @@
     </ClInclude>
     <ClInclude Include="SDK\UtlVector.h">
       <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Hopper.h">
+      <Filter>Hacks</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
